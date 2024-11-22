@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+    background-color: black;
+    
+
+}
+
+.navbar{
+     font-family: calibri; padding-right: 15px; padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+
+li{
+    list-style: none; display: inline-block;
+}
+
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+
+
+button{
+    color: white;
+    background-color: red;
+    margin-left: 25%;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    padding-left: 25%;
+    font-size: 18px;
+    padding-top: 15%;
+    font-weight: bold;
+    
+}
+
+
+.corner-image {
+    position: fixed; /* Fixes the image to the viewport */
+    bottom: 0;/* Aligns the image to the bottom */
+    padding-right: 5%;
+    padding-bottom: 7%;
+    border-radius: 10px;
+    right: 0; /* Aligns the image to the right */
+    width: 450px; /* Resizes the image width */
+    height: 350px; /* Maintains aspect ratio */
+    max-width: 100%;
+  }
+  
+  
